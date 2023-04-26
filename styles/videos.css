@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+  }
+  h1{
+    text-align: center
+    
+  }
+  a:link{
+    color: black;
+    text-decoration: none;
+  }
+  a:visited{
+    color: black;
+    text-decoration: none;
+  }
+  .icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 27px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+  .active {
+    background-color: #555;
+  }
+  .home{
+    background-color: rgba(57, 160, 100, 0.863);
+  }
+  .video{
+      background-color: rgb(27, 26, 26);
+  }
+  .rata{
+    text-align: center;
+    border: 1px solid brown;
+    color: white;
+  }
+  .rata video{
+    border: 1px solid brown;
+  }
+  .pra{
+    text-align: center;
+    border: 1px solid brown;
+    color: white;
+  }
+  .pra video{
+    border: 1px solid brown;
+  }
+  .dede{
+    text-align: center;
+    border: 1px solid brown;
+    color: white;
+  }
+  .dede video{
+    border: 1px solid brown;
+  }
+  .footer{
+    border: 1px solid brown;
+    color: white;
+    text-align: center;
+  }
+  .footer a{
+    font-family: bold;
+    color: white;
+  }

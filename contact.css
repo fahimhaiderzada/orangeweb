@@ -1,0 +1,192 @@
+.g {
+    float: left;
+    width: 180px;
+    margin: 19px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.g:hover{
+    border: 2px solid #777;
+    width: 183px;
+    margin: 18px;
+}
+
+.g img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px){
+     .g{
+        width: 80%;
+        margin-left: 30px;
+     }
+    }
+    
+
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ff7200;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #45a094;
+}
+
+.form{
+    width: 98%;
+    float: right;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.rounded{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    float: right;
+    width: 100%;
+    height: 500px;
+}
+.rounded:last-child{
+    left: 100px;
+}
+
+.numbers{
+    float: left;
+    background-color: #ccc;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+#num1{
+    animation: num1 1.5s infinite alternate;
+    position: relative;
+}
+@keyframes num1{
+        0%{background-color: white; left: 0px; top: 0px;}
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: #000000; color: white;} 
+        75%{background-color: rgb(252, 6, 6);}
+        100%{background-color: #000000; left: 600px; top: 0px; color: white;}
+}
+#num2{
+    animation: num2 1.5s infinite alternate;
+    position: relative;
+}
+@keyframes num2{
+        0%{background-color: white; left: 0px; top: 0px;} 
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: rgb(0, 0, 0); color: white;} 
+        75%{background-color: rgb(255, 0, 0);}
+        100%{background-color: #ff0000; left: 800px; top: 0px;}
+}
+#num3{
+    animation: num3 1.5s infinite alternate ; 
+    position: relative;
+}
+
+@keyframes num3{
+        0%{background-color: white; left: 0px; top: 0px;}
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: rgb(0, 0, 0); color: white;} 
+        75%{background-color: rgb(255, 0, 0);}
+        100%{background-color: #09ff00; left: 1000px; top: 0px;}
+}
+#num4{
+    animation: num4 1.5s infinite alternate ;
+    position: relative;
+}
+@keyframes num4{
+        0%{background-color: white; left: 0px; top: 0px;}
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: #ff0000; color: white;} 
+        75%{background-color: rgb(255, 0, 0);}
+        100%{background-color: #000000; left: 400px; top: 0px; color: white;}
+}
+#num5{
+    animation: num5 1.5s infinite alternate;
+    position: relative;
+}
+@keyframes num5{
+    0%{background-color: white; left: 0px; top: 0px;}
+    25%{background-color: #000000;}
+    50%{background-color: #ff0202;}
+    75%{background-color: rgb(255, 0, 0);}
+    100%{background-color: rgb(255, 0, 0); left: 600px; top: 0px;}
+}
+#num6{
+    animation: num6 1.5s infinite alternate ;
+    position: relative;
+}
+
+@keyframes num6{
+       0%{background-color: white; left: 0px; top: 0px;}
+       25%{background-color: rgb(0, 0, 0);}
+       50%{background-color: #ff0000;}
+       75%{background-color: rgb(255, 0, 0);}
+       100%{background-color: #00ff0d; left: 800px; top: 0%;}
+}
+#num7{
+    animation: num7 1.5s infinite alternate;
+    position: relative;
+}
+@keyframes num7{
+        0%{background-color: white; left: 0px; top: 0px;}
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: rgb(0, 255, 0); color: white;} 
+        75%{background-color: rgb(255, 0, 0);}
+        100%{background-color: #000000; left: 200px; top: 0px; color: white;}
+}
+#num8{
+    animation: num8 1.5s infinite alternate ;
+    position: relative;
+}
+
+@keyframes num8{
+        0%{background-color: white; left: 0px; top: 0px;}
+        25%{background-color: rgb(0, 0, 0);}
+        50%{background-color: rgb(0, 252, 0); color: white;} 
+        75%{background-color: rgb(255, 0, 0);}
+        100%{background-color: #ff0000; left: 400px; top: 0px;}
+}
+#num9{
+    animation: num9 1.5s infinite alternate;
+    position: relative;
+}
+@keyframes num9{
+       0%{background-color: white; left: 0px; top: 0px;}
+       25%{background-color: rgb(0, 0, 0);}
+       50%{background-color: rgb(9, 255, 0); color: white;} 
+       75%{background-color: rgb(255, 0, 0);}
+       100%{background-color: #31f500; left: 600px;}
+}
